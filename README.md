@@ -1,6 +1,22 @@
 # Why doesn't this work?
 
-I get errors trying to run Clippy on this project.
+I got errors trying to run Clippy on this project.
+
+Possible steps to reproduce:
+
+1. Have [Homebrew](https://brew.sh/) and [rustup](https://rustup.rs/) installed
+2. Run these commands:
+
+    ```
+    brew install rust
+    git clone https://github.com/jorendorff/incompavers.git
+    cd incompavers
+    cargo clean && cargo clippy --verbose
+    ```
+
+Expected behavior: Clippy should lint the crate.
+
+Actual behavior: Clippy produced the errors below.
 
 ```console
 ❯ rustup show
