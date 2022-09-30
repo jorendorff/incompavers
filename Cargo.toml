@@ -1,0 +1,9 @@
+[package]
+authors = ["Nobody <nobody@github.com>"]
+edition = "2021"
+name = "incompavers"
+version = "0.1.0"
+
+[dependencies]
+base64 = "0.13"
+paste = "1.0"
